@@ -1,0 +1,54 @@
+Here is a sample HTML code for a professional-looking polling website:
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Polling Website</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Polls</a></li>
+				<li><a href="#">Results</a></li>
+				<li><a href="#">About</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="poll-section">
+			<h2>Poll of the Week</h2>
+			<p>What is your favorite programming language?</p>
+			<ul>
+				<li><input type="radio" id="option-1" name="poll"><label for="option-1">JavaScript</label></li>
+				<li><input type="radio" id="option-2" name="poll"><label for="option-2">Python</label></li>
+				<li><input type="radio" id="option-3" name="poll"><label for="option-3">Java</label></li>
+				<li><input type="radio" id="option-4" name="poll"><label for="option-4">C++</label></li>
+			</ul>
+			<button>Vote</button>
+		</section>
+		<section class="results-section">
+			<h2>Poll Results</h2>
+			<canvas id="poll-results" width="400" height="200"></canvas>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Polling Website</p>
+	</footer>
+	<script src="script.js"></script>
+</body>
+</html>
+```
+This code creates a basic structure for a polling website with a navigation menu, a poll section, a results section, and a footer. The poll section includes a question, radio buttons for options, and a vote button. The results section includes a canvas element to display the poll results.
+
+Please note that this is just a basic example and you will need to add more functionality, styling, and interactivity using CSS and JavaScript to make it a fully functional polling website.
+
+Also, you will need to create a backend system to store and retrieve poll data, and to update the results in real-time.
+
+You can use a framework like Bootstrap to make it look more professional and responsive.
+
+Let me know if you need any help with the CSS and JavaScript code.
